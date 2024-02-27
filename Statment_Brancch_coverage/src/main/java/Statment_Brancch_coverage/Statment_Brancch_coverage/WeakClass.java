@@ -7,7 +7,7 @@ public class WeakClass {
 	public static int WeakMethod1(int x,int y){
 		int result=0;
 		
-		if( x<=0 || y<0) {
+		if( x<=0 || y==0) {
 			result=(y+4)/x;		
 		}
 		
@@ -25,7 +25,7 @@ public class WeakClass {
 	public static int WeakMethod2(int x,int y) {
 		int result=0;
 		
-		if( x<0 || y==0) {
+		if( y>=0 || x>0) {
 			result=x/y;		
 		}
 		
@@ -60,7 +60,7 @@ public class WeakClass {
 	public static int WeakMethod4(int x, int y) {
 		int result=0;
 		
-		if( x!=0 || y==0) {
+		if( y<=0) {
 			result=x/y;		
 		}
 		else {

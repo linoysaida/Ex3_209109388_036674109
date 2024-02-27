@@ -7,13 +7,13 @@ import org.junit.Test;
 public class TestWeakMethod2_b{
 
 	
-	 @Test
+	@Test
 		public void EX2_b_1(){
 		 
 	        int x = 1;
 	        int y = 5;
 	        
-	        int expected =5;
+	        int expected =1/5;
 	        int result = WeakClass.WeakMethod2(x, y);
 	        assertEquals(expected, result);
 	        
@@ -22,7 +22,19 @@ public class TestWeakMethod2_b{
 		public void EX2_b_2(){
 		 
 	        int x = -1;
-	        int y = 5;
+	        int y = -5;
+	        
+	        int expected =5;
+	        int result = WeakClass.WeakMethod2(x, y);
+	        assertEquals(expected, result);
+	        
+	    }
+	 
+	 @Test
+		public void EX2_b_3(){
+		 
+	        int x = 1;
+	        int y = -5;
 	        
 	        int expected =-1/5;
 	        int result = WeakClass.WeakMethod2(x, y);

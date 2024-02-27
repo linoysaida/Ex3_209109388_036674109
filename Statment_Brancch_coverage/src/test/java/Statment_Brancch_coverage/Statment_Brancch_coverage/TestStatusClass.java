@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class TestStatusClass {
 	
+
+
 	@Test
     public void test_1_2_4_17(){
 	 	boolean expected =true;
@@ -47,7 +49,7 @@ public class TestStatusClass {
 	
 	
 	@Test
-    public void test_1_3_6_11_13(){
+    public void test_1_3_6_11_15(){
 	 	boolean expected =false;
 	 	boolean result = StatusClass.checkOut(5000.00,500,StatusClass.Status.silver);
         assertEquals(expected, result);

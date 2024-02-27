@@ -2,10 +2,11 @@ package Statment_Brancch_coverage.Statment_Brancch_coverage;
 
 
 public  class StatusClass {
-	public enum Status {
+	public  enum Status {
 	      gold,
 	      silver,
 	      bronze
+	  
 		}
 	static Status status;
 	

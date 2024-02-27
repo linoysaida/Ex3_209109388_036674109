@@ -7,7 +7,7 @@ import org.junit.Test;
 public class TestWeakMethod4_b {
 
 	 @Test(expected=java.lang.ArithmeticException.class)
-	    public void EX4_b_1(){
+	    public void EX4_b(){
 		 	
 	        WeakClass.WeakMethod4(5,0);
 	       

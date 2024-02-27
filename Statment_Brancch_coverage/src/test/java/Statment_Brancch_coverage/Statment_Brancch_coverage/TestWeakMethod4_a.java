@@ -9,7 +9,7 @@ public class TestWeakMethod4_a {
 	  
 	 @Test
 	    public void EX4_a_1(){
-		 	int expected =4;
+		 	int expected =1;
 	        int result = WeakClass.WeakMethod4(4,1);
 	        assertEquals(expected, result);
 	    }
@@ -17,8 +17,8 @@ public class TestWeakMethod4_a {
 	        
 	 @Test
 	    public void EX4_a_2(){
-		 	int expected =1;
-	        int result = WeakClass.WeakMethod4(0,1);
+		 	int expected =0;
+	        int result = WeakClass.WeakMethod4(0,-1);
 	        assertEquals(expected, result);
 	    }
 	   

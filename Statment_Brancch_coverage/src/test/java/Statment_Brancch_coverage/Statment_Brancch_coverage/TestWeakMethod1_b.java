@@ -6,29 +6,32 @@ import org.junit.Test;
 
 public class TestWeakMethod1_b
 {
-	
 	 @Test
-		public void EX1_b_1(){
-		 
-	        int x = 1;
-	        int y = 5;
-	        
-	        int expected =6;
-	        int result = WeakClass.WeakMethod1(x, y);
-	        assertEquals(expected, result);
-	        
-	    }
+	public void EX1_b_1(){
+	 
+       int x = 1;
+        int y = 5;
+        
+        int expected =6;
+        int result = WeakClass.WeakMethod1(x, y);
+        assertEquals(expected, result);
+        
+    }
+
+	
 	 @Test
 		public void EX1_b_2(){
 		 
 	        int x = -1;
-	        int y = 5;
+	        int y = 0;
 	        
-	        int expected =-9;
+	        int expected =-4;
 	        int result = WeakClass.WeakMethod1(x, y);
 	        assertEquals(expected, result);
 	        
-	    }
-
-
+	    } 
+	
+	        
+	    
 }
+	 
