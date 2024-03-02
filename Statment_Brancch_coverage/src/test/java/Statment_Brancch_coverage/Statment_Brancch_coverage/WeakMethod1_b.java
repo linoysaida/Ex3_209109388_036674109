@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class TestWeakMethod1_b
+public class WeakMethod1_b
 {
 	 @Test
 	public void EX1_b_1(){
