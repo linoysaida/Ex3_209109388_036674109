@@ -60,7 +60,7 @@ public class WeakClass {
 	public static int WeakMethod4(int x, int y) {
 		int result=0;
 		
-		if( y<=0) {
+		if( y<=0 || x<0) {
 			result=x/y;		
 		}
 		else {

@@ -6,10 +6,12 @@ import org.junit.Test;
 
 public class WeakMethod4_b {
 
- @Test(expected=java.lang.ArithmeticException.class)
-	    public void EX4_b(){
-		 	
-	        WeakClass.WeakMethod4(5,0);
-	       
+	@Test(expected=java.lang.ArithmeticException.class)
+	public void EX4_b(){
+	 
+        int x = 5;
+        int y = 0;
+        WeakClass.WeakMethod4(x, y);
+    
 	    }
 }

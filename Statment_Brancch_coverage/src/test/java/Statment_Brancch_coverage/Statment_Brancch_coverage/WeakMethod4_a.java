@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class WeakMethod4_a {
-	 WeakClass weakClass = new WeakClass();
+	 
 	  
 	 @Test
 	    public void EX4_a_1(){
@@ -22,7 +22,13 @@ public class WeakMethod4_a {
 	        assertEquals(expected, result);
 	    }
 	 
-	   
+	 @Test
+	    public void EX4_a_3(){
+		 	int expected =-4;
+	        int result = WeakClass.WeakMethod4(-4,1);
+	        assertEquals(expected, result);
+	    }
+	    
 	   
 	       
   
